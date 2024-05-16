@@ -1,8 +1,8 @@
-venv/
+venv
 .pylintrc
 __pycache__/
 
-
+  
 .vscode
 .idea
 media/
