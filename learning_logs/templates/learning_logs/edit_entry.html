@@ -1,8 +1,8 @@
 {% extends "learning_logs/base.html" %}
 
-{% block conent %}
+{% block content %}
 <p>
-    <a href="{% url "learning_logs:topic" topic_id %}">{{ topic }}</a>
+    <a href="{% url "learning_logs:topic" topic.id %}">{{ topic }}</a>
 </p>
 
 <p>
@@ -13,4 +13,4 @@
     {{ form.as_p }}
     <button name='submit'>Save changes</button>
 </form>
-{% endblock conent %}
+{% endblock content %}
