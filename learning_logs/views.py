@@ -58,4 +58,4 @@ def edit_entry(request, entry_id):
             return redirect('learning_logs:topic', topic_id = topic.id)
         
     context = {'entry': entry, 'form': form, 'topic': topic}
-    return render(request, 'learning_logs/edit_entry/html', context)
+    return render(request, 'learning_logs/edit_entry.html', context)
